@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ufonts_com_agencyfb';
+    src: url('fonts/ufonts_com_agencyfb.eot');
+    src: url('fonts/ufonts_com_agencyfb.eot') format('embedded-opentype'),
+         url('fonts/ufonts_com_agencyfb.woff2') format('woff2'),
+         url('fonts/ufonts_com_agencyfb.woff') format('woff'),
+         url('fonts/ufonts_com_agencyfb.ttf') format('truetype'),
+         url('fonts/ufonts_com_agencyfb.svg#ufonts_com_agencyfb') format('svg');
+}

@@ -1,0 +1,614 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/ufonts_com_agencyfb.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+			
+				<div class="container page">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="web">
+								<div class="row">
+									<div class="header_area">
+										<div class="col-md-3">
+											<div class="logo">
+												<h2><span>the</span><br />News Reporter</h2>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="main_menu1">
+												<ul>
+													<li><a href="">home</a></li>
+													<li><a href="">about us</a></li>
+													<li><a href="">contact us</a></li>
+													<li><a href="">subcribe</a></li>
+													<li><a href="">login</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="header_icon">
+												<a href=""><i class="fa fa-facebook"></i></a>
+												<a href=""><i class="fa fa-google-plus"></i></a>
+												<a href=""><i class="fa fa-rss"></i></a>
+												<a href=""><i class="fa fa-twitter"></i></a>
+												<a href=""><i class="fa fa-camera"></i></a>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="header_icon">
+												<input type="search" placeholder="write here"/>
+												<a href=""><i class="fa fa-search"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="main_menu_area">
+										<div class="container">
+											<div class="row">
+												<div class="main_menu">
+													<ul>
+														<li><a href="">world </a></li>
+														<li><a href="">news</a></li>
+														<li><a href="">sports</a></li>
+														<li><a href="">tech</a></li>
+														<li><a href="">business</a></li>
+														<li><a href="">Movies </a></li>
+														<li><a href="">entertainment</a></li>
+														<li><a href=""> culture</a></li>
+														<li><a href=""> Books</a></li>
+														<li><a href=""> classifieds</a></li>
+														<li><a href=""> blogs</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slider_area">
+										<div class="container">
+											<div class="row">
+												<div class="slider">
+													<div class="col-md-8">
+														<div class="slider"> 
+															<!---this is slider --->
+															<script type="text/javascript" src="js/jssor.js"></script>
+															<script type="text/javascript" src="js/jssor.slider.js"></script>
+															<script>
+																jssor_slider1_starter = function (containerId) {
+																	var options = {
+																		$AutoPlay: true,                                   //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+																		$SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+
+																		$ThumbnailNavigatorOptions: {                       //[Optional] Options to specify and enable thumbnail navigator or not
+																			$Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+																			$ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+																			$Lanes: 2,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+																			$SpacingX: 14,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+																			$SpacingY: 12,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+																			$DisplayPieces: 6,                             //[Optional] Number of pieces to display, default value is 1
+																			$ParkingPosition: 156,                          //[Optional] The offset position to park thumbnail
+																			$Orientation: 2                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+																		}
+																	};
+
+																	var jssor_slider1 = new $JssorSlider$(containerId, options);
+																};
+															</script>
+															<!-- Jssor Slider Begin -->
+															<!-- You can move inline styles to css file or css block. -->
+															<div id="slider1_container" style="position: relative; padding: 0px; margin: 0 auto; top: 0px; left: 0px; width:820px;
+																height: 480px; background: #24262e;">
+
+																<!-- Loading Screen -->
+																<div u="loading" style="position: absolute; top: 0px; left: 0px;">
+																	<div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+																		background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
+																	</div>
+																	<div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+																		top: 0px; left: 0px;width: 100%;height:100%;">
+																	</div>
+																</div>
+
+																<!-- Slides Container -->
+																<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width:600px; height: 480px; overflow: hidden;">
+																	<div>
+																		<img u="image" src="img/travel/01.jpg" />
+																		<img u="thumb" src="img/travel/thumb-01.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/02.jpg" />
+																		<img u="thumb" src="img/travel/thumb-02.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/03.jpg" />
+																		<img u="thumb" src="img/travel/thumb-03.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/04.jpg" />
+																		<img u="thumb" src="img/travel/thumb-04.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/05.jpg" />
+																		<img u="thumb" src="img/travel/thumb-05.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/06.jpg" />
+																		<img u="thumb" src="img/travel/thumb-06.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/07.jpg" />
+																		<img u="thumb" src="img/travel/thumb-07.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/08.jpg" />
+																		<img u="thumb" src="img/travel/thumb-08.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/09.jpg" />
+																		<img u="thumb" src="img/travel/thumb-09.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/10.jpg" />
+																		<img u="thumb" src="img/travel/thumb-10.jpg" />
+																	</div>
+																	
+																	<div>
+																		<img u="image" src="img/travel/11.jpg" />
+																		<img u="thumb" src="img/travel/thumb-11.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/12.jpg" />
+																		<img u="thumb" src="img/travel/thumb-12.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/13.jpg" />
+																		<img u="thumb" src="img/travel/thumb-13.jpg" />
+																	</div>
+																	<div>
+																		<img u="image" src="img/travel/14.jpg" />
+																		<img u="thumb" src="img/travel/thumb-14.jpg" />
+																	</div>
+																</div>
+																
+																<!-- Thumbnail Navigator Skin Begin -->
+																<div u="thumbnavigator" class="jssort06" style="position: absolute; width: 220px; height: 480px; right:0px; bottom: 0px;">
+																	<!-- Thumbnail Item Skin Begin -->
+																	<style>
+																		/* jssor slider thumbnail navigator skin 06 css */
+																		/*
+																		.jssort06 .p            (normal)
+																		.jssort06 .p:hover      (normal mouseover)
+																		.jssort06 .pav          (active)
+																		.jssort06 .pav:hover    (active mouseover)
+																		.jssort06 .pdn          (mousedown)
+																		*/
+																		.jssort06 .f
+																		{
+																			clip: rect(8px 91px 58px 8px);
+																		}
+																		.jssort06 .pav .f
+																		{
+																			clip: rect(2px 97px 64px 2px);
+																		}
+																		.jssort06 .i
+																		{
+																			position: absolute;
+																			background: #000;
+																			filter: alpha(opacity=30);
+																			opacity: .3;
+																			width: 99px;
+																			height: 66px;
+																			top: 0;
+																			left: 0;
+																			
+																			transition: background-color .6s;
+																			-moz-transition: background-color .6s;
+																			-webkit-transition: background-color .6s;
+																			-o-transition: background-color .6s;
+																		}
+																		.jssort06 .pav .i
+																		{
+																			background: #fff;
+																			filter: alpha(opacity=100);
+																			opacity: 1;
+																		}
+																		.jssort06 .pdn .i { background: none; }
+																		
+																		.jssort06 .p:hover .i, .jssort06 .pav:hover .i
+																		{
+																			background: #fff;
+																			filter: alpha(opacity=30);
+																			opacity: .3;
+																		}
+																		.jssort06 .p:hover .i
+																		{
+																			transition: none;
+																			-moz-transition: none;
+																			-webkit-transition: none;
+																			-o-transition: none;
+																		}
+																	</style>
+																	<div u="slides" style="cursor: move;">
+																		<div u="prototype" class="p" style="position: absolute; width: 99px; height: 66px; top: 0; left: 0;">
+																			<div class="o" style="position:absolute;top:0px;left:0px;width:99px;height:66px;overflow:hidden;">
+																				<div u="thumbnailtemplate" class="b" style="width:99px;height:66px; border: none;position:absolute; top: 0; left: 0;"></div>
+																				<div class="i"></div>
+																				<div u="thumbnailtemplate" class="f" style="width:99px;height:66px;border: none;position:absolute; top: 0; left: 0;"></div>
+																			</div>
+																		</div>
+																	</div>
+																	<!-- Thumbnail Item Skin End -->
+																</div>
+																<!-- Thumbnail Navigator Skin End -->
+																<a style="display: none" href="http://www.jssor.com">Image Slider</a>
+																<!-- Trigger -->
+																<script>
+																	jssor_slider1_starter('slider1_container');
+																</script>
+															</div>
+														</div>
+														<div class="overlay">
+															<h2>Braking news</h2>
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="slider_left">
+															<ul>
+																<li>
+																	<video controls> 
+																	<source src="img/"/>
+																	</video>
+																	<p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</p>
+																</li>
+																<li>
+																	<video controls> 
+																	<source src="img/"/>
+																	</video>
+																	<p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</p>
+																</li>
+																<li>
+																	<video controls> 
+																	<source src="img/"/>
+																	</video>
+																	<p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</p>
+																</li>
+																<li>
+																	<video controls> 
+																	<source src="img/"/>
+																	</video>
+																	<p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</p>
+																</li>
+															</ul>
+															<p>more</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								<div class="add_area">
+									<div class="container">
+										<div class="row">
+											<div class="add">
+												<div class="col-md-12">
+													<div class="body">
+														<div class="col-md-6">
+															<div class="news_body">
+																<div class="row">
+																	<div class="body_news_headlines">
+																		<div class="col-md-8">
+																			<h2>FROM AROUND THE WORLD</h2>
+																		</div>
+																		<div class="col-md-4">
+																			<a href="">MORE +</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/pic8.png" alt="" />
+																			<p><b>Lorem ipsum dolor sit amet, consectetur</b>
+																			Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+																			<a href="">READ MORE</a>
+																		</div>
+																	</div>
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/pic8.png" alt="" />
+																			<p><b>Lorem ipsum dolor sit amet, consectetur</b>
+																			Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+																			<a href="">READ MORE</a>
+																		</div>
+																	</div>
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/pic8.png" alt="" />
+																			<p><b>Lorem ipsum dolor sit amet, consectetur</b>
+																			Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+																			<a href="">READ MORE</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="news_body">
+																<div class="row">
+																	<div class="body_news_headlines">
+																		<div class="col-md-8">
+																			<h2>FROM AROUND THE WORLD</h2>
+																		</div>
+																		<div class="col-md-4">
+																			<a href="">MORE +</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/pic8.png" alt="" />
+																			<p><b>Lorem ipsum dolor sit amet, consectetur</b>
+																			Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+																			<a href="">READ MORE</a>
+																		</div>
+																	</div>
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/pic8.png" alt="" />
+																			<p><b>Lorem ipsum dolor sit amet, consectetur</b>
+																			Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+																			<a href="">READ MORE</a>
+																		</div>
+																	</div>
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/pic8.png" alt="" />
+																			<p><b>Lorem ipsum dolor sit amet, consectetur</b>
+																			Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+																			<a href="">READ MORE</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="news_body">
+																<div class="row">
+																	<div class="body_news_headlines">
+																		<div class="col-md-8">
+																			<h2>FROM AROUND THE WORLD</h2>
+																		</div>
+																		<div class="col-md-4">
+																			<a href="">MORE +</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/gellery4.png" alt="" />
+																		</div>
+																	</div>
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/gellery5.png" alt="" />
+																		</div>
+																	</div>
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/gellery6.png" alt="" />
+																		</div>
+																	</div>
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/gellery1.png" alt="" />
+																		</div>
+																	</div>
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/gellery2.png" alt="" />
+																		</div>
+																	</div>
+																	<div class="col-md-4">
+																		<div class="single_news">
+																			<img src="img/gellery3.png" alt="" />
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="news_body">
+																<div class="row">
+																	<div class="body_news_headlines">
+																		<div class="col-md-8">
+																			<h2>FROM AROUND THE WORLD</h2>
+																		</div>
+																		<div class="col-md-4">
+																			<a href="">MORE +</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-md-6">
+																		<div class="single_news">
+																			<p><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </b><br /> Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor... <span>by John Doe </span>  |29comments</p>...............................................................
+																		</div>
+																	</div>
+																	<div class="col-md-6">
+																		<div class="single_news">
+																			<p><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </b><br /> Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor... <span>by John Doe </span>  |29comments</p>...............................................................
+																			&nbsp;&nbsp;&nbsp;&nbsp;
+																		</div>
+																	</div>
+																	<div class="col-md-6">
+																		<div class="single_news">
+																			<p><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </b><br /> Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor... <span>by John Doe </span>  |29comments</p>
+																		</div>
+																	</div>
+																	<div class="col-md-6">
+																		<div class="single_news">
+																			<p><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </b><br /> Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor... <span>by John Doe </span>  |29comments</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-3">
+															<div class="desk">
+																<h2>FROM THE DESK</h2>
+																<ul>
+																	<li>
+																		<p><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b>Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</p>
+																		<a href="">Read More</a>
+																		<span>3 hours ago</span>
+																	</li>
+																	<li>
+																		<p><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b>Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</p>
+																		<a href="">Read More</a>
+																		<span>3 hours ago</span>
+																	</li>
+																	<li>
+																		<p><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b>Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</p>
+																		<a href="">Read More</a>
+																		<span>3 hours ago</span>
+																	</li>
+																</ul>
+															</div>
+															<div class="more2">
+																<a href="">more+</a>
+															</div>
+															<div class="desk2">
+																<h2>editorial</h2>
+																<ul>
+																	<li>
+																		<img src="img/pic12.png" alt="" />
+																		<p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</p>
+																	</li>
+																	<li>
+																		<img src="img/pic13.png" alt="" />
+																		<p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</p>
+																	</li>
+																	<li>
+																		<img src="img/pic11.png" alt="" />
+																		<p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</p>
+																	</li>
+																	<li>
+																		<img src="img/pic12.png" alt="" />
+																		<p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</p>
+																	</li>
+																</ul>
+															</div>
+															
+														</div>
+														<div class="col-md-3">
+															<div class="subcribe">
+																<img src="img/image1.jpg" alt="" />
+															</div>
+															<div class="login">
+																<h2>Sign  Up  for    Newsletter</h2>
+																<p>Sign up to receive our free newsletters!</p>
+																<input type="name" name="name" placeholder="name" />
+																<input type="email" name="email" placeholder="name"placeholder="email" />
+																<input type="submit" value="submit" />
+																<span>We do not spam. We value your privacy!</span>
+															</div>
+															<div class="populer">
+																<h2><span>populer</span>&nbsp;&nbsp;&nbsp;&nbsp; pmost read</h2>
+																<ul>
+																	<li>
+																		<p><small>Sept 24th 2011 </small><br /> Lorem ipsum dolor sit amet conse ctetur adipiscing elit &nbsp;&nbsp;<a href="">read more</a></p>
+																	</li>
+																	<li>
+																		<p><small>Sept 24th 2011 </small><br /> Lorem ipsum dolor sit amet conse ctetur adipiscing elit &nbsp;&nbsp;<a href="">read more</a></p>
+																	</li>
+																	<li>
+																		<p><small>Sept 24th 2011 </small><br /> Lorem ipsum dolor sit amet conse ctetur adipiscing elit &nbsp;&nbsp;<a href="">read more</a></p>
+																	</li>
+																	<li>
+																		<p><small>Sept 24th 2011 </small><br /> Lorem ipsum dolor sit amet conse ctetur adipiscing elit &nbsp;&nbsp;<a href="">read more</a></p>
+																	</li>
+																	<li>
+																		<p><small>Sept 24th 2011 </small><br /> Lorem ipsum dolor sit amet conse ctetur adipiscing elit &nbsp;&nbsp;<a href="">read more</a></p>
+																	</li>
+																</ul>
+																<div class="more12">
+																	<a href="">Read More</a>
+																</div>
+															</div>
+															<div class="save_area">
+																<img src="img/save.jpg" alt="" />
+															</div>
+														</div>
+													</div>
+												</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="firehost_area">
+										<div class="container">
+											<div class="row">
+												<div class="freshhost">
+													<img src="img/host.jpg" alt="" />
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="footer_top_area">
+										<div class="container">
+											<div class="row">
+												<div class="footer_top">
+													<ul>
+														<li><a href="">World  News     |  </a></li>
+														<li><a href="">Sports     |     </a></li>
+														<li><a href=""> Techology     |</a></li>
+														<li><a href="">tech</a></li>
+														<li><a href=""> Business     | </a></li>
+														<li><a href="">Movies     |  </a></li>
+														<li><a href="">Entertainment     | </a></li>
+														<li><a href=""> Culture     |</a></li>
+														<li><a href=""> Books     | </a></li>
+														<li><a href="">  Classifieds     |  </a></li>
+														<li><a href="">  Blogs</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="footer_area">
+										<div class="container">
+											<div class="row">
+												<div class="footer">
+													<p>Copyright © 2011 The News Reporter Inc. All rights reserved. Theme designed by GraphicsFuel.comReproduction in whole or in part in any form or medium without express written permission of The News Reporter Inc. is prohibited. The trade marks and images used in the design are the copyright of their respective owners. They are used only for display purpose.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
